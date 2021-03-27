@@ -1,11 +1,17 @@
-This is web app is created to enhance accessibility features to users who have dyslexia. If the users lose focus, as stated in challenge #4, they can switch to text-to-speech within the app. 
+# This is web app is created to enhance accessibility features to users who have dyslexia. If the users lose focus, as stated in challenge #4, they can switch to text-to-speech within the app. The app also includes copy/paste feature where users can copy a part (a paragraph) or all of the text from a document and paste it to the editor in the app to modify the font or use text-to-speech. The camera capture is an optional feature for mobile devices or other devices that have a back camera to take a picture of text in a document from other devices to this app (then it converts to plain text) for the users to use. The app also includes image upload if any text from images need to be retrieved.
 
-# Dependencies/Libraries
-1) react-speech
-2) react-webcam
-3) tesseract.js
+## Core Features
+1) Image-to-text conversion system
+2) Text-to-speech conversion system
+3) Font modifiers **(font-weight, font-size, and font-family : selected based on their design, height, weight and shape)**
+4) Image-upload
 
-# Optimization/features that currently need to be done to make the app better
+## Dependencies/Libraries used
+1) react-speech (https://www.npmjs.com/package/react-speech)
+2) react-webcam (https://www.npmjs.com/package/react-webcam)
+3) tesseract.js (https://tesseract.projectnaptha.com)
+
+## Optimization/features that currently need to be done to make the app better
 1) autocorrect spelling when converting from image to text
 2) Make the app responsive on mobile devices
 3) add more font styles that are more readable to users with dyslexia
