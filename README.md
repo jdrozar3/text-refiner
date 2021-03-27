@@ -1,3 +1,20 @@
+This is web app is created to enhance accessibility features to users who have dyslexia. If the users lose focus, as stated in challenge #4, they can switch to text-to-speech within the app. 
+
+# Dependencies/Libraries
+1) react-speech
+2) react-webcam
+3) tesseract.js
+
+# Optimization/features that currently need to be done to make the app better
+1) autocorrect spelling when converting from image to text
+2) Make the app responsive on mobile devices
+3) add more font styles that are more readable to users with dyslexia
+4) add pause/resume buttons to text-to-speech button
+5) add a feature where highlighted text is only read
+6) make chrome-extension so that the text-to-speech and editing fonts can be done across all webpages
+7) add pdf/word upload system so that the accessibility features can be used on the documents
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
