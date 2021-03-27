@@ -1,3 +1,33 @@
+# Demo
+
+
+
+# Text Refiner Accessibility Feature
+This web app can help people with dyslexia to refine texts from documents and images to be more readable. If they lose focus, they can swtich to text-to-speech feature within the app. With the app, the user can also change the font-style to be more readable. 
+
+# How it is expected to work?
+1) User can copy text from other documents and paste to editor to change font-style.
+2) User can take an image of a paragraph with camera and read the text with text-to-speech feature.
+3) User can upload images or screenshots of documents containing text and view the text in the text editor.
+
+# Features
+1) Text-to-Speech
+2) Image-to-Text
+3) Copy/Paste Text Editor
+
+# Dependencies/Libraries
+1) react-webcam (https://www.npmjs.com/package/react-webcam)
+2) react-speech (https://www.npmjs.com/package/react-speech)
+3) tesseract.js (https://tesseract.projectnaptha.com)
+
+# What needs to be done?
+1) Optimize for mobile users
+2) File upload system
+3) Chrome Extension (so that user can modify the text in other webpages)
+
+
+# HOW TO GET STARTED
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
